@@ -21,3 +21,14 @@ body {
   border-radius: 4px;
 }
 
+/* Headlines com peso extra */
+h1.font-sport.font-black,
+h2.font-sport.font-black {
+  font-weight: 1000 !important;
+  -webkit-text-stroke: 1px currentColor;
+  text-shadow: 1.5px 1.5px 0px currentColor, 
+               1px 1px 0px currentColor,
+               0.5px 0.5px 0px currentColor;
+  letter-spacing: -0.03em;
+}
+
